@@ -5,3 +5,36 @@ h3{
 h2{
     color: aqua;
 }
+
+.t_right{
+            text-align: right;
+        }
+ .t_center{
+            text-align: center;
+        }
+
+        .t_decor_under{
+            text-decoration: underline ;
+        }
+        .t_decor_over{
+            text-decoration: overline ;
+        }
+        .t_decor_line{
+            text-decoration:line-through ;
+        }
+
+         .t_indent{
+            text-indent: 160px;
+        }
+
+         .letter_space{
+            letter-spacing: 10px;
+        }
+        .word_space{
+            word-spacing: 30px;
+        }
+
+        .line_height{
+            line-height: 25px;
+        }
+       
