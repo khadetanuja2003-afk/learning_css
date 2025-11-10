@@ -37,4 +37,22 @@ h2{
         .line_height{
             line-height: 25px;
         }
+
+        .t_shadow{
+             color: palevioletred ;
+            text-shadow: 5px 5px 10px grey;
+            font-size: 40px;
+            text-align: center;
+        }
+        .b_shadow{
+            box-shadow: 10px 10px 10px blueviolet;
+        }
+        .img_ratio{
+            width: 400px;
+            height: 400px;
+        }
+        .d_shadow{
+            filter: drop-shadow(3px 4px 4px rgb(197, 40, 66));
+        }
+        
        
