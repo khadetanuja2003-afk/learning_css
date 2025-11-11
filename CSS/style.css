@@ -52,7 +52,31 @@ h2{
             height: 400px;
         }
         .d_shadow{
-            filter: drop-shadow(3px 4px 4px rgb(197, 40, 66));
+            filter: drop-shadow(10px 15px 20px rgb(197, 40, 66));
+        }
+
+        .para1{
+            border: 3px solid red;
+        }
+
+        .para2{
+            border: 3px solid red;
+            padding: 40px;
+            margin: 60px;
+        }
+        .para3{
+            border:3px solid red ;
+            /* padding-left: 80px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 80px; */
+            padding: 50px 80px 50px 80px;
+            margin: 50px 80px 50px 80px;
+        }
+        .img{
+             border: 3px solid brown;
+            padding: 50px;
+            margin: 50px;
         }
         
        
