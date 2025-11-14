@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(99, 14, 14);
+            font-size: 50px;
+        }
+       .h_effect:hover{
+            color: rgb(13, 124, 124);
+            font-size: 100px;
+            background-color: rgb(95, 13, 177);
+            text-shadow: 4px 5px 3px rgb(248, 16, 93);
+        }
+         .a_effect:active{
+            color: aqua;
+            font-size: 100px;
+            background-color: rgb(161, 157, 165);
+            text-shadow: 4px 5px 3px palevioletred;
+        }
+        input:focus{
+            background-color: greenyellow;
+            color: red;
+        }
+        a:visited{
+            color:green;
+        }
+       
+        p::first-letter{
+            color: brown;
+            font-size: 50px;
+        }
+        p::first-line{
+            color: blueviolet;
+        }
+        ::selection{
+            color: aqua;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <p>LinkedIn is an American business and employment-oriented social networking service. The platform is primarily used for professional networking and career development, as it allows jobseekers to post their CVs and employers to post their job listings</p>
+    <a href="https://www.instagram.com/">Click Here</a><br><br>
+     <a href="https://www.youtube.com/">Click Here</a><br><br>
+      <a href="https://in.linkedin.com/">Click Here</a><br><br>
+     
+    <input type="text" placeholder="Text"/>
+    <h1 class="h_effect">My name is Tanuja</h1>
+     <h1 class="a_effect">My name is Tanuja</h1>
+</body>
+</html>
